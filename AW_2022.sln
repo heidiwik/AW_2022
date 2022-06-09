@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W1D4_Methods", "W1D4\W1D4_Methods.csproj", "{8BAF7D53-396A-47AA-BCBC-2FD0B0DE7A00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{8BAF7D53-396A-47AA-BCBC-2FD0B0DE7A00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W1D4_ObjectsAndCats", "W1D4_Objects\W1D4_ObjectsAndCats.csproj", "{BA2026D7-246C-4EE4-8BB6-27196AC142E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectsAndCats", "ObjectsAndCats\ObjectsAndCats.csproj", "{BA2026D7-246C-4EE4-8BB6-27196AC142E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W1D4_User", "W1D1_User\W1D4_User.csproj", "{42F99949-A715-471E-B26C-41C5725E40F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User", "User\User.csproj", "{42F99949-A715-471E-B26C-41C5725E40F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "W1D4", "W1D4", "{3392D2F4-A288-4253-A430-9F26193CF2A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8BAF7D53-396A-47AA-BCBC-2FD0B0DE7A00} = {3392D2F4-A288-4253-A430-9F26193CF2A6}
+		{BA2026D7-246C-4EE4-8BB6-27196AC142E3} = {3392D2F4-A288-4253-A430-9F26193CF2A6}
+		{42F99949-A715-471E-B26C-41C5725E40F8} = {3392D2F4-A288-4253-A430-9F26193CF2A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E8E6DF74-3977-44D6-A8EC-D2E309E1FBC1}
