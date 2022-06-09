@@ -22,9 +22,9 @@ namespace CatExample
 
         static bool InCatShow(string breed)
         {
-            string[] catBreeds = { "Siamese", "Ragdoll", "Persian", "Javanese", "Bengal" };
+            string[] catBreedsAttending = { "Siamese", "Ragdoll", "Persian", "Javanese", "Bengal" };
 
-            if (catBreeds.Contains(breed)) {
+            if (catBreedsAttending.Contains(breed)) {
                 return true;
             }
 
