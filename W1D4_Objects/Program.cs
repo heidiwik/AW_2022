@@ -17,7 +17,7 @@ namespace CatExample
 
         static bool inCatShow(string breed)
         {
-            string[] catBreeds = { "siamese", "ragdoll", "persian", "javanese", "bengal" };
+            string[] catBreeds = { "Siamese", "Ragdoll", "Persian", "Javanese", "Bengal" };
 
             if (catBreeds.Contains(breed)) {
                 return true;
@@ -48,6 +48,11 @@ namespace CatExample
             if (!inCatShow("Persian"))
             {
                 Console.WriteLine("\nPersian cats are not in this cat show");
+            }
+
+            if (inCatShow(bengal.breed))
+            {
+                Console.WriteLine(bengal.name + " is in cat show!");
             }
 
             Console.ReadLine();
