@@ -41,7 +41,7 @@ namespace Game
         void GetResult()
         {
             var rand = new Random();
-            if (rand.Next(100) > 70)
+            if (rand.Next(100) > 30)
             {
                 this.victory = true;
             }
@@ -62,6 +62,14 @@ namespace Game
         }
     }
 
+    public static class Extensions
+    {
+        public static void Price(this Raffle raffle, string price)
+        {
+            Console.WriteLine("You won " + price);
+        }
+    }
+
 
     class Exercise
     {
@@ -76,6 +84,7 @@ namespace Game
             if (lotto.victory)
             {
                 Console.WriteLine(" Congratulations! You won! \n");
+                lotto.Price("1 million euros");
             }
             else
             {
