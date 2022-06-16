@@ -1,6 +1,17 @@
 ﻿using System;
 using System.Threading;
 
+/* 
+ * Exercise: 
+ * Add a custom extension method which tells the user what prize they win, but only if they win the game
+ * 
+ * Bonus Exercise:
+ * Change the game logic to following:
+ *  - ask a number 1-10 from user
+ *  - if the number matches a random number given by Random() method, user wins 
+ */
+
+
 namespace Game
 {
     public class Raffle
@@ -65,14 +76,13 @@ namespace Game
             if (lotto.victory)
             {
                 Console.WriteLine(" Congratulations! You won! \n");
-            } else
+            }
+            else
             {
-                Console.WriteLine(" You lost :( \n");
+                Console.WriteLine(" You lost :( \n No price for you\n");
             }
 
             Console.WriteLine("*********************************");
         }
     }
-
-
 }
