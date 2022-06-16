@@ -15,7 +15,7 @@ namespace CatExample
             Console.WriteLine("Welcome to my cat application");
         }
 
-        public void Meow()
+        public static void Meow()
         {
             Console.WriteLine("Meow!");
         }
@@ -56,7 +56,7 @@ namespace CatExample
             // print stuff
             Console.WriteLine("");
             Console.WriteLine(bengal.name + " says: ");
-            bengal.Meow();
+            Meow();
             Console.WriteLine("\nfavourite toy is: " + bengal.favouriteToy);
             Console.WriteLine(bengal.name + " is born " + bengal.dateOfBirth.ToString("dd.MM.yyyy"));
 
@@ -67,10 +67,10 @@ namespace CatExample
             }
 
 
-            //if (!InCatShow("Persian"))
-            //{
-            //    Console.WriteLine("\nPersian cats are attending in the cat show");
-            //}
+            if (InCatShow("Persian"))
+            {
+                Console.WriteLine("\nPersian cats are attending in the cat show");
+            }
 
             Console.ReadLine();
 
