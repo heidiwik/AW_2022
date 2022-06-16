@@ -16,6 +16,24 @@ namespace ExtensionMethods
             {
                 Console.WriteLine("Number was smaller");
             }
+
+            int year = 1990;
+            int year2 = 1972;
+
+            if (year.IsGreater(year2))
+            {
+                Console.WriteLine("year 1 is later");
+            }
+
+
+            if (1337.IsGreater(2))
+            {
+                Console.WriteLine("1337 is greater than 2");
+            }
+
+            int j = 27;
+            int added = j.AddByTwo();
+            Console.WriteLine(j + " + 2 = " + added);
         }
     }
 
@@ -25,6 +43,14 @@ namespace ExtensionMethods
         {
             bool result = i > val;
             return result;
+        }
+
+        public static int AddByTwo(this int i)
+        {
+            int result = i + 2;
+            return result;
+
+            //return i + 2;
         }
     }
 
