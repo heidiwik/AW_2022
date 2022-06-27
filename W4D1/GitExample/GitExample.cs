@@ -2,23 +2,27 @@
 
 namespace Welcome
 {
+	class Welcome
+    {
+
+			User newUser = new User("Terttu", "dog");
+
+			Console.WriteLine("Yay you made it to week 4 " + newUser.name + "!");
+			Console.WriteLine("Say hi to your " + newUser.pet);
+		}
+	}
+
 	public class User
 	{
 		int id;
-		string firstName;
-		int age;
+		public string name;
+		public string pet;
 
 		// constructor
-		User(string name, int age)
+		public User(string name, string pet)
 		{
-			this.firstName = name;
-			this.age = age;
-		}
-
-		public static void Main()
-		{
-
-			User newUser = new User("Pertti", 72);
+			this.name = name;
+			this.pet = pet;
 
 			Console.WriteLine("Welcome to course week 4 " + newUser.firstName);
 		}
