@@ -1,21 +1,9 @@
 ﻿using System;
 
-namespace User
+namespace Welcome
 {
-	class User
-	{
-		// data members
-		int id;
-		string name;
-		string city;
-
-		// constructor
-		User(string name, string city)
-		{
-			this.name = name;
-			this.city = city;
-		}
-
+	class Welcome
+    {
 		// Main Method
 		public static void Main()
 		{
@@ -23,5 +11,21 @@ namespace User
 
 			Console.WriteLine("Welcome to week 4 " + newUser.name);
 		}
+	}
+
+	public class User
+	{
+		// data members
+		int id;
+		public string name;
+		public string city;
+
+		// constructor
+		public User(string name, string city)
+		{
+			this.name = name;
+			this.city = city;
+		}
+
 	}
 }
