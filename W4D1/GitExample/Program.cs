@@ -4,27 +4,22 @@ namespace Welcome
 {
 	class Welcome
     {
-		// Main Method
 		public static void Main()
 		{
-			User newUser = new User("Ernesti", "Turku");
+			User newUser = new User("Ernesti");
 
-			Console.WriteLine("Welcome to week 4 " + newUser.name);
+			Console.WriteLine("Welcome to week 4 " + newUser.firstName);
 		}
 	}
 
 	public class User
 	{
-		// data members
 		int id;
-		public string name;
-		public string city;
+		public string firstName;
 
-		// constructor
-		public User(string name, string city)
+		public User(string name)
 		{
-			this.name = name;
-			this.city = city;
+			this.firstName = name;
 		}
 
 	}
