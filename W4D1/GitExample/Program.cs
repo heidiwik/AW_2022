@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GitExample
+namespace User
 {
 	class User
 	{
@@ -10,19 +10,17 @@ namespace GitExample
 		int age;
 
 		// constructor
-		User(string name, int age)
+		User(string name)
 		{
 			this.name = name;
-			this.age = age;
 		}
 
 		// Main Method
 		public static void Main()
 		{
-			User newUser = new User("Ernesti", 21);
+			User newUser = new User("Ernesti");
 
-			Console.WriteLine(newUser.name);
-			Console.WriteLine(newUser.age);
+			Console.WriteLine("Welcome to week 4 " + newUser.name);
 		}
 	}
 }
