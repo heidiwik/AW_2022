@@ -7,7 +7,7 @@ namespace Welcome
 		// Main Method
 		public static void Main()
 		{
-			User newUser = new User("Ernesti", "Turku");
+			User newUser = new User("Ernesti", 25);
 
 			Console.WriteLine("Welcome to week 4 " + newUser.name);
 		}
@@ -18,13 +18,13 @@ namespace Welcome
 		// data members
 		int id;
 		public string name;
-		public string city;
+		public int age;
 
 		// constructor
-		public User(string name, string city)
+		public User(string name, int age)
 		{
 			this.name = name;
-			this.city = city;
+			this.age = age;
 		}
 
 	}
