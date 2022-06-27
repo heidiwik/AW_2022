@@ -6,20 +6,26 @@ namespace Welcome
     {
 		public static void Main()
 		{
-			User newUser = new User("Ernesti");
 
-			Console.WriteLine("Welcome to week 4 " + newUser.firstName);
+			User newUser = new User("Ernesti", 25);
+
+			Console.WriteLine("Welcome to week 4 " + newUser.name);
 		}
 	}
 
 	public class User
 	{
 		int id;
-		public string firstName;
 
-		public User(string name)
+		public string name;
+		public int age;
+
+		// constructor
+		public User(string name, int age)
 		{
-			this.firstName = name;
+			this.name = name;
+			this.age = age;
+
 		}
 
 	}
