@@ -29,15 +29,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitExample", "W4D1\GitExamp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathApp", "W4D1\MathApp\MathApp.csproj", "{BB26EBBB-72BB-45D6-B831-0DED97E7A889}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "W4D3", "W4D3", "{695AC741-8508-4640-9A3A-CC2D5D7FF98E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "W4D2", "W4D2", "{695AC741-8508-4640-9A3A-CC2D5D7FF98E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPrimeNumbers", "W4D2\FindPrimeNumbers\FindPrimeNumbers.csproj", "{10E36FB9-3C81-452D-BAAB-170BCB4110DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPrimeNumbers", "W4D2\FindPrimeNumbers\FindPrimeNumbers.csproj", "{10E36FB9-3C81-452D-BAAB-170BCB4110DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPrimeNumbersAsync", "W4D2\FindPrimeNumbersAsync\FindPrimeNumbersAsync.csproj", "{0E7CCA62-3C3A-440E-BB62-774325568CFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPrimeNumbersAsync", "W4D2\FindPrimeNumbersAsync\FindPrimeNumbersAsync.csproj", "{0E7CCA62-3C3A-440E-BB62-774325568CFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPrimeNumbersParallel", "W4D2\FindPrimeNumbersParallel\FindPrimeNumbersParallel.csproj", "{9D44AD69-E615-4BFA-B18A-F536B28A1A49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPrimeNumbersParallel", "W4D2\FindPrimeNumbersParallel\FindPrimeNumbersParallel.csproj", "{9D44AD69-E615-4BFA-B18A-F536B28A1A49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncProgram", "W4D2\AsyncProgram\AsyncProgram.csproj", "{56CD706C-9E80-407A-9732-99BA6AF05A08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncProgram", "W4D2\AsyncProgram\AsyncProgram.csproj", "{56CD706C-9E80-407A-9732-99BA6AF05A08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "W4D3", "W4D3", "{C387F25A-6601-47BD-8FB4-264856F20ED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokenLottoGame", "W4D3\BrokenLottoGame\BrokenLottoGame.csproj", "{ABAC696C-0940-4146-BA0E-DF26C5FDCCBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +101,10 @@ Global
 		{56CD706C-9E80-407A-9732-99BA6AF05A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56CD706C-9E80-407A-9732-99BA6AF05A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56CD706C-9E80-407A-9732-99BA6AF05A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABAC696C-0940-4146-BA0E-DF26C5FDCCBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABAC696C-0940-4146-BA0E-DF26C5FDCCBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABAC696C-0940-4146-BA0E-DF26C5FDCCBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABAC696C-0940-4146-BA0E-DF26C5FDCCBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +123,7 @@ Global
 		{0E7CCA62-3C3A-440E-BB62-774325568CFF} = {695AC741-8508-4640-9A3A-CC2D5D7FF98E}
 		{9D44AD69-E615-4BFA-B18A-F536B28A1A49} = {695AC741-8508-4640-9A3A-CC2D5D7FF98E}
 		{56CD706C-9E80-407A-9732-99BA6AF05A08} = {695AC741-8508-4640-9A3A-CC2D5D7FF98E}
+		{ABAC696C-0940-4146-BA0E-DF26C5FDCCBA} = {C387F25A-6601-47BD-8FB4-264856F20ED5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E8E6DF74-3977-44D6-A8EC-D2E309E1FBC1}
