@@ -59,11 +59,28 @@ namespace BrokenLottoGame
 
         public void Play()
         {
-            Console.WriteLine("Guess a number between 1-10:\n");
-            guessedNumber = int.Parse(Console.ReadLine());
-            Console.Write("\nGood luck!\n\nRaffling ");
-            ShowDots();
-            GetResult();
+
+            try
+            {
+                //guessedNumber = int.Parse(Console.ReadLine());
+
+                bool isNumber = false;
+
+                while (isNumber == false)
+                {
+                    Console.WriteLine("Guess a number between 1-10:\n");
+                    isNumber = int.TryParse(Console.ReadLine(), out guessedNumber);
+                }
+
+                Console.Write("\nGood luck!\n\nRaffling ");
+                ShowDots();
+                GetResult();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Väärä syöte");
+            }
+
         }
     }
 
