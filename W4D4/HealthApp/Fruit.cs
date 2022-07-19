@@ -17,5 +17,6 @@
         public float fat { get; set; }
         public int calories { get; set; }
         public float sugar { get; set; }
+
     }
 }

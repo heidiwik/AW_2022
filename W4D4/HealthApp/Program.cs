@@ -6,6 +6,8 @@ namespace HealthApp
 {
     class Program
     {
+
+
         private static void PrintFruitData(Fruit fruit)
         {
             Console.WriteLine("");
@@ -38,3 +40,4 @@ namespace HealthApp
         }
     }
 }
+
