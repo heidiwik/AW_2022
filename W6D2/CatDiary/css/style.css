@@ -21,10 +21,10 @@ h3 {
     margin-bottom: 4em;
 }
 
-
-/* body > * > img {
+/* Target second child of body */
+body > * > img {
     border: 10px dotted magenta;
-} */
+}
 
 
 /* These stylings are only active when viewing a page on a screen with width 992px or smaller */
