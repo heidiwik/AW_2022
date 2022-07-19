@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;600&family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: 'Edu VIC WA NT Beginner';
+}
+
+h2 {
+    line-height: 2em;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+.red {
+    color: red;
+}
+
+.row {
+    margin-bottom: 4em;
+}
+
+
+/* body > * > img {
+    border: 10px dotted magenta;
+} */
+
+
+/* These stylings are only active when viewing a page on a screen with width 992px or smaller */
+@media screen and (max-width: 992px) {
+    p {
+        font-weight: bold;
+    }
+}
+
+/* These stylings are only active when viewing a page on a screen with width 375px or smaller */
+@media screen and (max-width: 375px) {
+    p {
+        color: hotpink;
+    }
+
+    .red {
+        color: #000000;
+    }
+}
