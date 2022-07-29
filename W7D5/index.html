@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>jQuery demo</title>
 
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
 
@@ -17,13 +18,39 @@
             <div class="row">
                 <div class="col">
                     <h2>Ingredients</h2>
-                    <ul>
-                        <li>1 cup flour</li>
-                        <li>¼ teaspoon salt</li>
-                        <li>3 eggs - separated</li>
-                        <li>1 cup heavy whipping cream</li>
-                        <li>optional toppings: powdered sugar, syrup, fresh fruit, etc</li>
-                    </ul>
+                    <div id="ingredients">
+                        <h3>For the dough</h3>
+                        <ul>
+                            <li>2 cups flour , sifted</li>
+                            <li>½ cup butter (soft)</li>
+                            <li>⅓ cup caster sugar</li>
+                            <li>1 egg (at room temperature), beaten</li>
+                            <li>1 tablespoon milk (at 97 F / 36°C)</li>
+                            <li>1 tablespoon active dry yeast</li>
+                            <li>¼ teaspoon salt</li>
+                        </ul>
+
+                        <h3>For the syrup</h3>
+                        <ul>
+                            <li>½ cup molasses (or cane sugar syrup)</li>
+                            <li>⅔ cup brown sugar</li>
+                            <li>½ cup butter , diced</li>
+                            <li>½ teaspoon ground cinnamon</li>
+                        </ul>
+
+                        <h3>Equipment</h3>
+                        <ul>
+                            <li>Stand mixer</li>
+                            <li>Baking sheet</li>
+                            <li>Pizzelle maker</li>
+                        </ul>
+
+                    </div>
+
+
+                    <button class="btn btn-secondary">Hide/show</button>
+
+                    <p class="decorative-text">Cherries strawberries blueberries bananas chocolate</p>
                 </div>
             </div>
 
@@ -33,17 +60,30 @@
                 </div>
                 <div class="col">
                     <h2>Instructions</h2>
-                    <p>In a large bowl, combine flour and salt. In a small bowl, beat egg yolks on low speed. Gradually pour in cream and beat for 1 minute. Add wet ingredients to flour mixture and mix until smooth.
-                    In another bowl (make sure your beaters are clean) beat egg whites on high until stiff peaks form. Gently fold into batter.
-                    Bake in a preheated waffle iron according to manufacturer's directions. Serve warm with desired toppings.</p>
 
-                    <h2>Notes</h2>
-                    <p>*I love to add 1 teaspoon vanilla and 1/2 teaspoon ground cinnamon to the waffle batter for a fun flavor variation. Try it!</p>
+                    <h3>Dough</h3>
+                    <p>In the bowl of a stand mixer, beat the butter, sugar, egg, milk and yeast. Finally add the flour and salt and, using the dough hook, knead until obtaining a homogeneous and fairly firm dough.
+                    Cover the dough with a cloth and let it rise for 1 hour in a warm place, away from drafts.
+                    Place the dough on a floured work surface and knead it lightly.
+                    Divide it into 6 to 8 pieces and form balls about 2 inches (5 cm) in diameter.
+                    Place the dough balls gradually on a baking sheet with enough space between them.
+                    Cover them with a damp cloth and let them rise for 15 minutes in a warm place, away from drafts.</p>
 
-                    <p>Source: <a target="_blank" href="https://www.lecremedelacrumb.com/4-ingredient-dutch-cream-waffles/">Creme de la Crumb</a></p>
+                    <h3>Baking</h3>
+                    <p>Bake the stroopwafels in a pizzelle maker, with a shallow rack. The stroopwafels must be flat and thin.
+                    As soon as the appliance stops releasing steam, open it and check for doneness. They must be nicely golden.
+                    Using a sharp knife, cut each stroopwafel in half horizontally while still warm.</p>
 
-                    
-                    <p class="decorative-text">Yum yum</p>
+                    <h3>Syrup</h3>
+                    <p>Combine molasses, brown sugar, butter, and ground cinnamon in a saucepan.
+                    Heat and stir until well combined.
+                    Let cool.</p>
+
+                    <h3>Assembly</h3>
+                    <p>In the center of each half of stroopwafel, spread about a tablespoon of syrup and place the second half on top.</p>
+
+                    <p>Source: <a href="https://www.196flavors.com/netherlands-stroopwafel/" target="_blank">196 flavors</a></p>
+                    <p class="decorative-text text-center">Yum yum</p>
                 </div>
             </div>
     
