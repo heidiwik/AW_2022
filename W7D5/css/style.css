@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Pacifico&display=swap');
 
 body {
     padding-top: 5%;
@@ -15,4 +15,11 @@ h1 {
     margin-bottom: 2em;
 }
 
+.decorative-text {
+    font-family: 'Pacifico', sans-serif;
+    font-size: 30px;
+    color: pink;
+    line-height: 3em;
+    text-align: center;
+}
  
