@@ -1,11 +1,11 @@
 import { useState } from 'react'
 
 const App = () => {
-  const [color, setSelection] = useState("ei mikään :(");
+  const [selection, setSelection] = useState("ei mikään :(");
 
   return (
     <>
-      <h2>Lempiaiheeni kurssilla on: {color}</h2>
+      <h2>Lempiaiheeni kurssilla on: {selection}</h2>
 
       <p></p>
       <p>Valitse lempiaihe:</p>
