@@ -9,10 +9,11 @@ const App = () => {
 
       <p></p>
       <p>Valitse lempiaihe:</p>
-      <button type="button" onClick={() => setSelection("C#")}>C#</button>
-      <button type="button" onClick={() => setSelection("React")}>React</button>
-      <button type="button" onClick={() => setSelection("HTML & CSS")}>HTML & CSS</button>
-      <button type="button" onClick={() => setSelection("JavaScript")}>JavaScript</button>
+      <button onClick={() => setSelection("C#")}>C#</button>
+      <button onClick={() => setSelection("React")}>React</button>
+      <button onClick={() => setSelection("HTML & CSS")}>HTML & CSS</button>
+      <button onClick={() => setSelection("JavaScript")}>JavaScript</button>
+      <button onClick={() => setSelection("Databases")}>Databases</button>
     </>
   )
 };
