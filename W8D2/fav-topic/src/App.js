@@ -1,22 +1,7 @@
 import { useState } from 'react'
+import { Header } from './components/Header'
+import { Hello } from './components/Hello'
 
-const Header = (props) => {
-  return (
-    <div className='block header'>
-        <h3>Lempiaihe Header-komponentissa: {props.valinta}</h3>
-    </div>
-  )
-}
-
-
-const Hello = (props) => {
-  return (
-    <div className='block hello'>
-       <h1>Moi {props.nimi}!</h1>
-       <p>Lempiaihe Tervehdys-komponentissa: {props.lempiaihe}</p>
-    </div>
-  )
-}
 
 
 const App = () => {
